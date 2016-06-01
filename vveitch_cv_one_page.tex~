@@ -28,7 +28,6 @@
 
 \usepackage[nochapters]{classicthesis} % Use the classicthesis style for the style of the document
 \usepackage[LabelsAligned]{currvita} % Use the currvita style for the layout of the document
-\usepackage{textcomp}
 
 \renewcommand{\cvheadingfont}{\LARGE\color{Maroon}} % Font color of your name at the top
 
@@ -98,7 +97,7 @@
 \NewEntry{2013-present}{The University of Toronto}
 
 \Description{\MarginText{Doctor of Philosophy, Statistical Sciences}\textit{Statistical Theory and Applications}\newline 
-My research primarily focuses on Bayesian nonparametrics and the development of techniques for the statistical analysis of networks.\newline
+My research primarily focuses on Bayesian non-parametrics and the development of techniques for the statistical analysis of networks.\newline
 Advisor: Prof.~Daniel \textsc{Roy}}
 
 %------------------------------------------------
@@ -107,13 +106,14 @@ Advisor: Prof.~Daniel \textsc{Roy}}
 
 \Description{\MarginText{Masters of Mathematics}\textit{Applied Mathematics Specialization}\newline
 Thesis: \textit{Negative Quasi-Probability in the Context of Quantum Computation}\newline
-My research was focused on quantum information science and the foundations of quantum mechanics. My thesis was recognized as the best Masters thesis in the Mathematics faculty in 2013. \newline
+My research was focused on the development of mathematical techniques to address problems in quantum information science and the foundations of quantum mechanics. My thesis was recognized as the best Masters thesis in the Mathematics faculty in 2013. \newline
 Advisor: Prof.~Joseph \textsc{Emerson}}
 %------------------------------------------------
 
 \NewEntry{2006-2011}{The University of Waterloo}
 
-\Description{\MarginText{Bachelor of Science}\textit{Honours Mathematical Physics, Pure Mathematics Minor}\ \ $\cdotp$\ \ \textit{Dean's Honours List}}
+\Description{\MarginText{Bachelor of Science}\textit{Honours Mathematical Physics, Pure Mathematics Minor}\ \ $\cdotp$\ \ \textit{Dean's Honours List} \newline
+This degree focused on modern theoretical physics and the associated mathematical and computational techniques.}
 
 
 %------------------------------------------------
@@ -149,7 +149,7 @@ Advisor: Prof.~Joseph \textsc{Emerson}}
 %------------------------------------------------
 
 \vspace{1em} % Extra space between major sections
-\newpage
+
 %----------------------------------------------------------------------------------------
 %	PUBLICATIONS
 %----------------------------------------------------------------------------------------
@@ -224,10 +224,6 @@ Contributed talk at Quantum Information Processing 2013. Beijing, China.}
 
 \vspace{-2em}
 
-\Description{2016\ \ $\cdotp$\ \ Best Oral Presentation at Statistical Society of Canada Meeting}
-
-\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
-
 \Description{2015\ \ $\cdotp$\ \ Best Theory Poster at 10th Conference on Bayesian Nonparameterics}
 
 \vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
@@ -280,7 +276,7 @@ Contributed talk at Quantum Information Processing 2013. Beijing, China.}
 \Description{\MarginText{Web}\parbox{\langbox}{\textsc{GitHub}}\ \ $\cdotp$\ \ \ \href{https://github.com/vveitch}{github.com/vveitch}}
 \Description{\parbox{\langbox}{\textsc{Wikipedia}}\ \ $\cdotp$\ \ \ \href{https://en.wikipedia.org/wiki/User:Victor_veitch}{en.wikipedia.org/wiki/User:Victor\_veitch}}
 \Description{\parbox{\langbox}{\textsc{Google Scholar}}\ \ $\cdotp$\ \ \ \href{https://scholar.google.ca/citations?user=xkn_XZgAAAAJ&hl=en}{scholar.google.ca/citations?user=xkn\_XZgAAAAJ\&hl=en}}
-\Description{\parbox{\langbox}{\textsc{Website}}\ \ $\cdotp$\ \ \ \href{https://utstat.utoronto.ca/~victor}{utstat.utoronto.ca/\texttildelow victor}}
+\Description{\parbox{\langbox}{\textsc{Website}}\ \ $\cdotp$\ \ \ \href{https://sites.google.com/site/victorveitch}{https://sites.google.com/site/victorveitch}}
 \end{cv}
 
 \end{document}
