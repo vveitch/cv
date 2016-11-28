@@ -40,7 +40,7 @@
 \newcommand{\NewEntry}[3]{\noindent\hangindent=2em\hangafter=0 \parbox{\datebox}{\small \textit{#1}}\hspace{1.5em} #2 #3 % Define a command for each new block - change spacing and font sizes here: #1 is the left margin, #2 is the italic date field and #3 is the position/employer/location field
 \vspace{0.5em}} % Add some white space after each new entry
 
-\newcommand{\Description}[1]{\hangindent=2em\hangafter=0\noindent\footnotesize{#1}\par\normalsize\vspace{1em}} % Define a command for descriptions of each entry - change spacing and font sizes here
+\newcommand{\Description}[1]{\hangindent=2em\hangafter=0\noindent\footnotesize{#1}\par\normalsize\vspace{0.75em}} % Define a command for descriptions of each entry - change spacing and font sizes here
 
 %victor fucking around to get "Lyx" to look pretty ------------------------------------------------
 \makeatletter
@@ -71,12 +71,10 @@
 
 \begin{cv}{\spacedallcaps{Victor Veitch}}
 \vspace{0.3em}
-\hspace{-0.9em}\href{https://utstat.utoronto.ca/~victor}{utstat.utoronto.ca/\texttildelow victor}
-
-\hspace{-0.9em}\href{mailto:victor@utstat.toronto.edu}{victor@utstat.toronto.edu} % Email address 
+\hspace{-0.9em}\href{https://utstat.utoronto.ca/~victor}{utstat.utoronto.ca/\texttildelow victor} \ \ $\cdotp$\ \ \href{mailto:victor@utstat.toronto.edu}{victor@utstat.toronto.edu} % Email address 
 
 
-\vspace{1.5em} % Your name
+\vspace{1em}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
@@ -86,10 +84,12 @@
 
 % %\NewEntry{2013-present}{Ph.D. Statistics - University of Toronto}
 
- \Description{\MarginText{2013-present}{Ph.D. Statistics - \textsc{University of Toronto}}{}} 
+ \Description{\MarginText{2013-present}{Ph.D. Statistics - \textsc{University of Toronto}}
+\newline{Advisor: Daniel Roy}} 
 % %------------------------------------------------
 
- \Description{\MarginText{2011-2013}{Masters of Mathematics - \textsc{University of Waterloo}}{}} 
+ \Description{\MarginText{2011-2013}{Masters of Mathematics - \textsc{University of Waterloo}}
+\newline{Advisor: Joseph Emerson}} 
 
  %\Description{\MarginText{Masters of Mathematics}\textit{Applied Mathematics Specialization}\newline
 % %------------------------------------------------
@@ -111,6 +111,8 @@
 \spacedlowsmallcaps{Publications and Preprints}\vspace{1em}
 
 \Description{{\textsc{Google Scholar}}\ \ $\cdotp$\ \ \ \href{https://scholar.google.ca/citations?user=xkn_XZgAAAAJ&hl=en}{scholar.google.ca/citations?user=xkn\_XZgAAAAJ\&hl=en}}
+
+\Description{\MarginText{2016}\textsc{Sampling and estimation for (sparse) exchangeable graphs}. \newline \emph{V. Veitch}, D.M. Roy. arxiv.org/abs/1607.02066}
 
 \Description{\MarginText{2015}\textsc{The class of random graphs arising from exchangeable random measures}. \newline \emph{V. Veitch}, D.M. Roy. arxiv.org/abs/1512.03099}
 
@@ -136,8 +138,32 @@
 
 %-------------------------------------------
 
-\Description{\MarginText{Selected Talks}2013\ \ $\cdotp$\ \ “The Resource Theory of Stabilizer Computation” \newline
-\emph{Invited talk} at June meeting of the CIFAR Quantum Information Processing meeting. Edmonton, Canada.}
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{\MarginText{Employment}2016\ \ $\cdotp$\ \ “Intern at Microsoft Research New England” \newline
+Advisors: Christian Borgs, Jennifer Chayes, and Henry Cohn}
+
+
+%-------------------------------------------
+
+\vspace{0.5em}
+
+%-------------------------------------------
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{\MarginText{Selected Talks}2017\ \ $\cdotp$\ \ “(Sparse) exchangeable graphs” \newline
+Invited talk at Large Random Graphs: Geometry and Application. Bonn, Germany.}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{2017\ \ $\cdotp$\ \ “(Sparse) exchangeable graphs” \newline
+Invited talk at McGill Statistics Seminar. Montreal, Canada.}
+
+% \vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+% \Description{2013\ \ $\cdotp$\ \ “The Resource Theory of Stabilizer Computation” \newline
+% Invited talk at CIFAR Quantum Information Processing meeting. Edmonton, Canada.}
 
 \vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
 
